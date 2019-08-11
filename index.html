@@ -10,17 +10,18 @@
         <link href="css/all.css" rel="stylesheet">
         <link  href="css/style.css" rel="stylesheet"> 
         <script src="js/bootstrap.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="js/jquery-3.4.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script language="JavaScript" type="text/javascript" src="js/app.js"></script>
    </head> 
    <body>
        <div class="header">
            <div class="container">
                 <div class="row">
-                        <div class="left-header col-md-9">
-                            <img class="img-responsive center-block" src="img/header.png" alt="header">
+                        <div class="left-header col-lg-9">
+                            <img class="center-block" src="img/header.png" alt="header">
                         </div>
-                        <div class="right-header col-md-3">
+                        <div class="right-header col-lg-3">
                             <div class="right-yellow"></div>
                             <div class="right-blue">
                                     <div class='right-blue-content'><div><h1 class="blue-white">2019</h1><br/><h3 class="blue-white">metų projektas</h3></div></div>
@@ -30,10 +31,10 @@
             </div>
         </h>  
     <br>        
-        <div class="middle">
+        <div class="middle-up">
             <div class="container">
                 <div class="row">    
-                    <div class="left-middle col-sm-6">
+                    <div class="left-middle col-lg-6 col-md-6">
                         <h3 class="tipografika">T I P O G R A F I K A</h3>
                         <h1 class="a">Aa</h1>
                         <h3 class="text-bold">Avenir Next Cry Regular, Medium</h3>
@@ -41,7 +42,7 @@
                         <p class="texts">abcdefghijklmnopqrstuvwx</p>
                         <p class="texts">123456789</p>
                     </div>
-                    <div class="right-middle col-sm-3">
+                    <div class="right-middle col-lg-6 col-md-6">
                        <div class="circles">  
                             <div class="blue"></div>
                             <div class="cyan"></div>
@@ -57,18 +58,22 @@
     <br>
         <div class="slider">
             <div class="container">
-                   <div class="left-slider col-sm-6">
-                       <img src="img/testas_16.png" alt="kairė">
-                   </div>
-                   <div class="right-slider col-sm-3">
-                        <img src="img/dizainas_16.png" alt="desine">
-                   </div>
+                <div class="row">
+                       <img src="img/testas_16.png" alt="kairė" class="slider">
+                        <img src="img/dizainas_16.png" alt="desine" class="slider">
+                    <div class="nextCircle">
+                        <i class="fa fa-arrow-right next" aria-hidden="true"></i>
+                    </div>
+                    <div class="prevCircle">
+                        <i class="fa fa-arrow-left previous" aria-hidden="true"></i>
+                    </div>
+                </div>   
             </div>       
         </div>
     <br>    
         <div class="middle-down">
             <div class="container">
-                <h3 class="tipografika">PAMATYKITE GYVAI</h3>
+                <h3 class="tipografika">P A M A T Y K I T E       G Y V A I</h3>
                 <a href="http://www.litana-group.com"><h1 class="website">www.litana-group.com</h1></a>
             </div>
         </div>   
@@ -76,11 +81,11 @@
         <footer class="footer">
             <div class="container"> 
                 <div class="row"> 
-                    <div class="footer-left col-sm-4">
-                        <h4><a class="reffoter" href="https://www.skalbykla24.lt/"><i class="fas fa-arrow-left"></i>  ANKSTESNIS </a>  SKALBYKLA24</h4>
+                    <div class="footer-left col-lg-5 col-xl-4 col-md-12">
+                        <p><a class="reffoter" href="https://www.skalbykla24.lt/"><i class="fas fa-arrow-left"></i> ANKSTESNIS </a>  SKALBYKLA24</p>
                     </div>
-                    <div class="footer-right col-sm-4">
-                        <h4>    BALTMARINA   <a class="reffoter" href="https://www.baltmarina.com/">KITAS <i class="fas fa-arrow-right"></i></a></h4>
+                    <div class="footer-right col-lg-5 col-xl-4 col-md-12">
+                        <p>   BALTMARINA   <a class="reffoter" href="https://www.baltmarina.com/">KITAS<i class="fas fa-arrow-right"></i></a></p>
                     </div>
                 </div>        
             </div>   
